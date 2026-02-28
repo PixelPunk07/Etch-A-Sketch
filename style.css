@@ -10,3 +10,7 @@ body {
     background-color: #f6fac0;
     font-family: "Press Start 2P", sans-serif;
 }
+
+h1 {
+    text-align: center;
+}
