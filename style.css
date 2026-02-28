@@ -20,4 +20,5 @@ h1 {
 #container {
     width: 600px;
     height: 600px;
+    border: 8px solid black;
 }
