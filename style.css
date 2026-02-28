@@ -21,4 +21,5 @@ h1 {
     width: 600px;
     height: 600px;
     border: 8px solid black;
+    border-radius: 10px;
 }
