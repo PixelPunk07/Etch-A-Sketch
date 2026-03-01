@@ -15,4 +15,5 @@ function generateGrid(gridSize) {
 
 gridBtn.addEventListener("click", () => {
     const askUser = +prompt("Enter grid size");
+    if (askUser === null) return;
 })
