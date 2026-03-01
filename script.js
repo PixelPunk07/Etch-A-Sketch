@@ -5,6 +5,9 @@ const eraseBtn = document.querySelector("#erase-btn");
 
 let currentMode = "draw";
 
+drawBtn.addEventListener('click', () => currentMode = "draw");
+eraseBtn.addEventListener("click", () => currentMode = "erase");
+
 function generateGrid(gridSize) {
     const boxSize = 100 / gridSize;
     container.innerHTML = "";
