@@ -14,6 +14,8 @@ function generateGrid(gridSize) {
     }
 }
 
+generateGrid(16);
+
 gridBtn.addEventListener("click", () => {
     const askUser = +prompt("Enter grid size");
     if (askUser === null) return;
