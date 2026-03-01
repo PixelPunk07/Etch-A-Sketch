@@ -54,3 +54,8 @@ h1 {
 .btn-container .erase-btn {
     background: linear-gradient(140deg, #88ff64 20%, #03ffff);
 }
+
+.btn-container .draw-btn {
+    background-color: black;
+    color: white;
+}
