@@ -36,3 +36,7 @@ h1 {
     width: 600px;
     margin: 10px auto;
 }
+
+.btn-container #grid-btn {
+    padding: 6px 10px;
+}
