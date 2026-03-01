@@ -31,3 +31,7 @@ h1 {
 .grid {
     border: 1px solid black;
 }
+
+.btn-container {
+    width: 600px;
+}
