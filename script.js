@@ -3,6 +3,7 @@ const gridBtn = document.querySelector("#grid-btn");
 
 function generateGrid(gridSize) {
     const boxSize = 100 / gridSize;
+    container.innerHTML = "";
 
     for (let i = 0; i < gridSize * gridSize; i++) {
         const gridItem = document.createElement("div");
