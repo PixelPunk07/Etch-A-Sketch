@@ -1,4 +1,5 @@
 const container = document.querySelector("#container");
+const gridBtn = document.querySelector("#grid-btn");
 
 function generateGrid(gridSize) {
     const boxSize = 100 / gridSize;
