@@ -47,3 +47,7 @@ h1 {
     border-radius: 8px;
     cursor: pointer;
 }
+
+.btn-container .erase-btn {
+    padding: 6px 10px;
+}
