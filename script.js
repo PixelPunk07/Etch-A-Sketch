@@ -17,7 +17,7 @@ container.addEventListener("mouseover", (e) => {
         } else if (currentMode === "erase") {
             e.target.style.backgroundColor = "white";
         } else if (currentMode === "rgb") {
-            e.target.backgroundColor = generateRgbColor();
+            e.target.style.backgroundColor = generateRgbColor();
         }
     }
 })
