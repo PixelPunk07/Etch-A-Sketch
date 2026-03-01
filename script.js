@@ -12,3 +12,7 @@ function generateGrid(gridSize) {
         container.appendChild(gridItem);
     }
 }
+
+gridBtn.addEventListener("click", () => {
+    const askUser = +prompt("Enter grid size");
+})
