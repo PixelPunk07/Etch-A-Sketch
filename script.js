@@ -8,6 +8,7 @@ let currentMode = "draw";
 
 drawBtn.addEventListener('click', () => currentMode = "draw");
 eraseBtn.addEventListener("click", () => currentMode = "erase");
+rgbBtn.addEventListener("click", () => currentMode = "rgb");
 
 container.addEventListener("mouseover", (e) => {
     if (e.target.classList.contains("grid")) {
