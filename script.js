@@ -3,6 +3,8 @@ const gridBtn = document.querySelector("#grid-btn");
 const drawBtn = document.querySelector("#draw-btn");
 const eraseBtn = document.querySelector("#erase-btn");
 
+let currentMode = "draw";
+
 function generateGrid(gridSize) {
     const boxSize = 100 / gridSize;
     container.innerHTML = "";
