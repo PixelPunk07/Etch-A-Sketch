@@ -1,5 +1,7 @@
 const container = document.querySelector("#container");
 const gridBtn = document.querySelector("#grid-btn");
+const drawBtn = document.querySelector("#draw-btn");
+const eraseBtn = document.querySelector("#erase-btn");
 
 function generateGrid(gridSize) {
     const boxSize = 100 / gridSize;
