@@ -2,6 +2,7 @@ const container = document.querySelector("#container");
 const gridBtn = document.querySelector("#grid-btn");
 const drawBtn = document.querySelector("#draw-btn");
 const eraseBtn = document.querySelector("#erase-btn");
+const rgbBtn = document.querySelector("#rgb-btn");
 
 let currentMode = "draw";
 
