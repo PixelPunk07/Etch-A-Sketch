@@ -50,3 +50,7 @@ h1 {
     border: none;
     border-radius: 8px;
 }
+
+.btn-container .erase-btn {
+    background: linear-gradient(140deg, #88ff64 20%, #03ffff);
+}
