@@ -65,3 +65,7 @@ h1 {
     background-color: black;
     color: white;
 }
+
+.btn-container .rgb-btn {
+    background: linear-gradient(140deg, #ff0e0e, #35ff0d, #1713ff);
+}
