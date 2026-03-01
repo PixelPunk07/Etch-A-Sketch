@@ -27,6 +27,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
+    box-shadow: 0 0 5px #000;
 }
 
 .grid {
