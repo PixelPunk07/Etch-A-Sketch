@@ -39,15 +39,14 @@ h1 {
 }
 
 .btn-container #grid-btn {
+    background: linear-gradient(140deg, #68e7e1 20%, #3f8ce4);
+}
+
+.btn-container button {
     padding: 6px 10px;
     font-size: 16px;
     font-weight: 600;
-    background: linear-gradient(140deg, #68e7e1 20%, #3f8ce4);
+    cursor: pointer;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
-}
-
-.btn-container .erase-btn {
-    padding: 6px 10px;
 }
