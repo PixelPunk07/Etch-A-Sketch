@@ -27,3 +27,7 @@ h1 {
     flex-wrap: wrap;
     background-color: white;
 }
+
+.grid {
+    border: 1px solid black;
+}
