@@ -8,6 +8,16 @@ let currentMode = "draw";
 drawBtn.addEventListener('click', () => currentMode = "draw");
 eraseBtn.addEventListener("click", () => currentMode = "erase");
 
+container.addEventListener("mouseover", (e) => {
+    if (e.target.classList.contains("grid")) {
+        if (currentMode === "draw") {
+            e.target.style.backgroundColor = "black";
+        } else if (currentMode === "erase") {
+            e.target.style.backgroundColor = "white";
+        }
+    }
+})
+
 function generateGrid(gridSize) {
     const boxSize = 100 / gridSize;
     container.innerHTML = "";
